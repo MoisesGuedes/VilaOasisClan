@@ -1,0 +1,99 @@
+.body {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  height: 80px;
+  width: 315px;
+  animation: showSnackbar 0.7s forwards;
+  padding: 10px;
+  border-radius: 5px;
+  top: 10px;
+}
+
+.danger {
+  background-color: var(--cor-danger);
+}
+.danger #backgroud-loading-bar {
+  background-color:#EC0404;
+}
+
+.success {
+  background-color: var(--cor-primary);
+}
+
+.success #backgroud-loading-bar {
+  background-color: #008E34;
+}
+
+.default {
+  background-color:#3F3F3F;
+}
+
+.default #backgroud-loading-bar{
+  background-color:#282828;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  height: 27px;
+  width: 27px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+button:active{
+  transition: 0.3s;
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+i-feather {
+  width: 18px;
+  height: 18px;
+}
+
+span {
+  color: white;
+}
+
+section small {
+  font-size: 13px;
+  color: white;
+}
+
+footer {
+  margin-top: 8px;
+}
+
+#backgroud-loading-bar {
+  height: 2px;
+  width: 100%;
+}
+
+#loading-bar {
+  background-color: white;
+  opacity: 0.5;
+  height: 2px;
+  width: 0%;
+  animation: loadbar 5s forwards;
+}
+
+@keyframes loadbar {
+  to {
+    width: 100%;
+  }
+}
+
+/* @keyframes showSnackbar {
+  to {
+    top: 10px;
+  }
+} */

@@ -1,0 +1,22 @@
+<div [@snack-visibility]="snackVisibility" class="body default"
+  [ngClass]="{
+    'default':messageTipe === 'default',
+    'danger':messageTipe === 'danger',
+    'success':messageTipe === 'success'
+  }"
+>
+  <header>
+    <span>Erro!</span>
+    <button (click)="close()"><i-feather name="x"></i-feather></button>
+  </header>
+  <section>
+    <small>{{message}}</small>
+  </section>
+  <footer>
+    <div *ngIf="snackVisibility === 'visible'" id="backgroud-loading-bar">
+      <div id="loading-bar">
+
+      </div>
+    </div>
+  </footer>
+</div>

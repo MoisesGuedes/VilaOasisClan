@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "VilaOasisClan"
+    }
+  },
+  "defaultProject": "VilaOasisClan",
+  "cli": {
+    "analytics": "c2b7ff0e-56bf-47f7-96ad-5d3c2acef50b"
+  }
 }

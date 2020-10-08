@@ -1,0 +1,23 @@
+.message-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 5px 0px;
+}
+
+.message-container, i-feather, label {
+  font-weight: 700;
+}
+
+.success {
+  color: var(--cor-primary);
+}
+
+.error {
+  color:var(--cor-danger);
+}
+
+label {
+  font-size: 16px;
+  font-weight: 400;
+}

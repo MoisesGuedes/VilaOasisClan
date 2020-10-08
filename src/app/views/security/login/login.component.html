@@ -1,0 +1,25 @@
+<header>
+  <div>
+    <img src="/assets/login/logo.svg" alt="logo">
+    <h1>Vila Oasis</h1>
+  </div>
+</header>
+
+<section>
+  <h1>Login</h1>
+
+  <form [formGroup]="form">
+    <div class="input-group">
+      <app-input [showTip]="false" label="UserId">
+        <input formControlName="userid" placeholder="Digite o seu UserId" type="text">
+      </app-input>
+    </div>
+    <div class="input-group">
+      <app-input [showTip]="false" label="Código de acesso">
+        <input formControlName="accesscode" placeholder="Digite a código de acesso" type="text">
+      </app-input>
+    </div>
+    <button type="submit" class="b-primary">login</button>
+  </form>
+</section>
+

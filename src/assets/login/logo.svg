@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45.5" height="39.478" viewBox="0 0 45.5 39.478">
+  <g id="logo" transform="translate(0 -33.75)">
+    <path id="Caminho_1" data-name="Caminho 1" d="M6.691,356.25H0v2.676H6.691a8.039,8.039,0,0,1,8.029,8.029H17.4A10.718,10.718,0,0,0,6.691,356.25Z" transform="translate(0 -293.728)" fill="#fff"/>
+    <path id="Caminho_2" data-name="Caminho 2" d="M6.691,416.25H0V421.6H12.044A5.359,5.359,0,0,0,6.691,416.25Z" transform="translate(0 -348.375)" fill="#fff"/>
+    <path id="Caminho_3" data-name="Caminho 3" d="M405,421.6h9.368V416.25h-4.015A5.359,5.359,0,0,0,405,421.6Z" transform="translate(-368.868 -348.375)" fill="#fff"/>
+    <path id="Caminho_4" data-name="Caminho 4" d="M345,366.956h2.676a8.039,8.039,0,0,1,8.029-8.029h4.015V356.25h-4.015A10.718,10.718,0,0,0,345,366.956Z" transform="translate(-314.221 -293.728)" fill="#fff"/>
+    <path id="Caminho_5" data-name="Caminho 5" d="M0,271.6H6.691a13.4,13.4,0,0,1,13.382,13.382H22.75A16.077,16.077,0,0,0,6.691,268.926h9.64a18.743,18.743,0,0,1,9.095,16.059H28.1a21.385,21.385,0,0,0-7.251-16.059h3.795a24.085,24.085,0,0,1,2.739,3.727,18.766,18.766,0,0,1,4.456-3.727h9.645a16.075,16.075,0,0,0-12.763,6.316,24.024,24.024,0,0,1,1.133,3.129A13.391,13.391,0,0,1,41.485,271.6H45.5V266.25H0Z" transform="translate(0 -211.757)" fill="#fff"/>
+    <path id="Caminho_6" data-name="Caminho 6" d="M255,206.25h2.676v2.676H255Z" transform="translate(-232.25 -157.11)" fill="#fff"/>
+    <path id="Caminho_7" data-name="Caminho 7" d="M32.007,49.619v2.2h2.676v-2.2a3.346,3.346,0,0,0,2.007-3.066V37.1A3.346,3.346,0,0,0,30,37.1v9.457A3.346,3.346,0,0,0,32.007,49.619Z" transform="translate(-27.324)" fill="#fff"/>
+    <path id="Caminho_8" data-name="Caminho 8" d="M299.26,42.9h10.706l-8.029-8.654H291.2Z" transform="translate(-265.22 -0.455)" fill="#fff"/>
+    <path id="Caminho_9" data-name="Caminho 9" d="M184.015,60.936h8.029v5.353h4.015v-7.5L187.51,49.64,180,57.734v8.555h4.015Z" transform="translate(-163.941 -14.472)" fill="#fff"/>
+    <path id="Caminho_10" data-name="Caminho 10" d="M390,161.25h10.706v6.691H390Z" transform="translate(-355.206 -116.125)" fill="#fff"/>
+  </g>
+</svg>
