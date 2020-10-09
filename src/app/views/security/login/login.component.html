@@ -6,12 +6,15 @@
 </header>
 
 <section>
-  <h1>Login</h1>
-
+  <div class="section-header">
+    <h1>Login</h1>
+    <h2>Faça Login para continuar</h2>
+    <hr>
+  </div>
   <form [formGroup]="form">
     <div class="input-group">
-      <app-input [showTip]="false" label="UserId">
-        <input formControlName="userid" placeholder="Digite o seu UserId" type="text">
+      <app-input [showTip]="false" label="userTag">
+        <input formControlName="userTag" placeholder="Digite a sua tag" type="text">
       </app-input>
     </div>
     <div class="input-group">
@@ -19,7 +22,7 @@
         <input formControlName="accesscode" placeholder="Digite a código de acesso" type="text">
       </app-input>
     </div>
-    <button type="submit" class="b-primary">login</button>
+    <button (click)="login()" type="submit" class="b-primary">login</button>
   </form>
 </section>
 

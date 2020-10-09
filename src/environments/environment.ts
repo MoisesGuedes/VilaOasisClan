@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  BASE_URL: '/https://api.clashofclans.com/v1'
+  BASE_URL: 'https://api.clashofclans.com/v1'
 };
 
 /*
